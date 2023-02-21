@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="wZwd1KROG}}DKXF3z(y*" x="0" y="0"><statement name="HANDLER"><block type="motor_MotorRun" id="UP~:M@`/,z%E(*Cw|8M("><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="zkFiSwjOp8J5UcIFDzHw"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">35</field></shadow></value></block></statement></block><block type="kb_event" id="?RH7T?:Zi2p~R6(v#tE:" x="561" y="104"><field name="value">maqueen.Patrol1.PatrolRight</field><field name="vi">maqueen.Voltage.High</field><statement name="HANDLER"><block type="device_show_leds" id=";T4YD,T,b-^l@bG{f1fy"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_forever" id="4eh/):zU)PlH%Q4+s#7d" x="125" y="290"></block><block type="kb_event" id="hm?Ha+M/(Q^-EdA#jt5z" x="581" y="463"><field name="value">maqueen.Patrol1.PatrolLeft</field><field name="vi">maqueen.Voltage.High</field><statement name="HANDLER"><block type="device_show_leds" id="Q{2XHhZlJSr(w}0|.`j,"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement></block><block type="read_Patrol" id="xE*^UaB4-QLy8:oMfQ5O" disabled="true" x="52" y="506"><field name="patrol">maqueen.Patrol.PatrolLeft</field></block></xml>
