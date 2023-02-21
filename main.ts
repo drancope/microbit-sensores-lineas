@@ -11,7 +11,7 @@ maqueen.ltEvent(maqueen.Patrol1.PatrolRight, maqueen.Voltage.High, function () {
         . . # . .
         `)
     diferencia += 5
-    while (0 == maqueen.readPatrol(maqueen.Patrol.PatrolLeft)) {
+    while (1 == maqueen.readPatrol(maqueen.Patrol.PatrolRight)) {
         reencontrar()
         basic.pause(100)
     }
@@ -27,7 +27,7 @@ maqueen.ltEvent(maqueen.Patrol1.PatrolLeft, maqueen.Voltage.High, function () {
         . . # . .
         `)
     diferencia += -5
-    while (0 == maqueen.readPatrol(maqueen.Patrol.PatrolRight)) {
+    while (1 == maqueen.readPatrol(maqueen.Patrol.PatrolLeft)) {
         reencontrar()
         basic.pause(100)
     }
